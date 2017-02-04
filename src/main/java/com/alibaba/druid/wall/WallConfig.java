@@ -76,7 +76,7 @@ public class WallConfig implements WallConfigMBean {
 
     private boolean             truncateAllow               = true;
 
-    private boolean             commentAllow                = false;
+    private boolean             commentAllow                = true;
     private boolean             strictSyntaxCheck           = true;
     private boolean             constArithmeticAllow        = true;
     private boolean             limitZeroAllow              = false;
